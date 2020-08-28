@@ -61,7 +61,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 })
 sprites.onOverlap(SpriteKind.df, SpriteKind.Enemy, function (sprite, otherSprite) {
     sprite.destroy()
-    info.player2.changeLifeBy(-2)
+    info.player2.changeLifeBy(-50)
 })
 info.player2.onLifeZero(function () {
     game.over(true)
@@ -71,7 +71,7 @@ let projectile2: Sprite = null
 let mySprite2: Sprite = null
 let mySprite: Sprite = null
 info.player2.setLife(5324)
-info.setLife(122222)
+info.setLife(3000)
 let my_sprite = sprites.create(img`
     . . . . . . . . . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . . . . . . . . . 
