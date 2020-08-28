@@ -1,5 +1,4 @@
- https://makecode.com/_97FWRd11Wd4c
-
+https://makecode.com/_JtcTR8YkRWt6
 
 > Open this page at [https://mameeewin.github.io/stop-the-legendery-ghost/](https://mameeewin.github.io/stop-the-legendery-ghost/)
 
